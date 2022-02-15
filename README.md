@@ -34,9 +34,9 @@ Feedback sent to: https://www.arrow.com/en/support/contact-support/contact-arrow
 
 Fundamental engineering errors regarding the Nyquist Frequency exist on this article: https://www.arrow.com/en/research-and-events/articles/engineering-resource-basics-of-analog-to-digital-converter
 
-It states, for instance: 
+It states, for instance (emphasis added): 
 
-> According to the [Nyquist] theorem, the sampling rate/frequency needs to be at least twice as much as the highest frequency in the signal to recreate the original analog signal. 
+> According to the [Nyquist] theorem, the sampling rate/frequency needs to be at least twice as much as the highest frequency in the signal **to recreate the original analog signal**. 
 
 This is incorrect. 2x the sampled frequency is NOT enough to "recreate" the original signal, rather, it is simply enough to avoid aliasing and correctly **detect the frequency of** the original signal. I would modify the article to say: 
 
