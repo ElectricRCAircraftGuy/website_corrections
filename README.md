@@ -38,7 +38,7 @@ It states, for instance (emphasis added):
 
 > According to the [Nyquist] theorem, the sampling rate/frequency needs to be at least twice as much as the highest frequency in the signal **to recreate the original analog signal**. 
 
-This is incorrect. 2x the sampled frequency is NOT enough to "recreate" the original signal, rather, it is simply enough to avoid aliasing and correctly **detect the frequency of** the original signal. I would modify the article to say: 
+This is incorrect. 2x the sampled frequency is NOT enough to "recreate" the original signal, rather, it is simply enough to avoid aliasing and correctly **detect the frequency of** (ex: via FFT analysis) the original signal. I would modify the article to say: 
 
 > According to the Nyquist theorem, the sampling rate/frequency needs to be at least twice as much as the highest frequency in the signal **in order to detect the frequency of the original signal.**
 
